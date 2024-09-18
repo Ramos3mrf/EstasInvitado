@@ -49,7 +49,7 @@ h5{
 .nombres{
     font-family: 'Miama';
     font-size: 9vh;
-    width: 96%;
+    width: auto;
     font-weight: 400%;
     color: #0404E2;
     background-color: transparent;
@@ -82,7 +82,7 @@ p{
     align-items: center;
     background-color: #0404e2a3;
     height: 9vh;
-    width: 46.5vh;
+    width: auto;
     color: aliceblue;
     margin-top: -0.5vh;
     font-size: 2.7vh;
@@ -103,23 +103,24 @@ a{
     display: flex;
     align-items: center;
     color: #0404E2;
-    padding-left: 3%;
     color: white;
-    width: 90%;
+    width: auto;
     background-color: #0404E2;
-    margin-left: 1.5vh;
-    margin-right: 10%;
-    border-radius: 30px;
+    border-radius: 40px;
+}
+
+.outside{
+    margin: 2vh;
 }
 
 .U{
     box-shadow: none;
-    margin-left: -1vh;
-    width: 5vh;
+    width: 6vh;
 }
 
 .lugar{
     padding: 1.5%;
+    margin-left: 1vh;
     font-size: 2.5vh;
 }
 
@@ -165,7 +166,9 @@ a{
 .celebracion{
     padding-top: 5%;
     background-color: #0404E2;
+    width: auto;
 }
+
 
 h4{
     display: grid;
@@ -187,7 +190,7 @@ h4{
 
 
 .card{
-    margin-left:5.4vh;
+    margin-left: 6.5vh;
     border: 1px solid #ccc;
     border-radius: 10px;
     width: 18rem;
@@ -263,4 +266,13 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.muestra{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    width: auto;
+    height: 6vh;
+    font-size: 3;
 }
