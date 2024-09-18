@@ -48,7 +48,7 @@ h5{
 
 .nombres{
     font-family: 'Miama';
-    font-size: 9vh;
+    font-size: 8vh;
     width: auto;
     font-weight: 400%;
     color: #0404E2;
@@ -269,10 +269,13 @@ button{
 }
 
 .muestra{
+    background-color: rgb(255, 199, 227);
+    font-family:'Metal';
     margin-top: 1vh;
     margin-bottom: 1vh;
     border-radius: 5px;
     width: auto;
     height: 6vh;
-    font-size: 3;
+    font-size: 3vh;
+    color:#810357
 }
