@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 *{
     text-decoration: none;    
     margin: 0%;
@@ -270,7 +270,7 @@ button{
 
 .muestra{
     background-color: rgb(255, 199, 227);
-    font-family:'Metal';
+    font-family:'Courgette';
     margin-top: 1vh;
     margin-bottom: 1vh;
     border-radius: 5px;
@@ -279,3 +279,4 @@ button{
     font-size: 3vh;
     color:#810357
 }
+
